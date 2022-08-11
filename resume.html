@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>WeHelp申請書-張傑銘</title>
+
+    <style>
+        .header{
+            width:100%;
+            height:50px;
+            background-color: #141E27;
+            display: flex;
+            justify-content: center;    
+            align-items: center;
+            font-size:30px;
+            color:#DCD7C9;
+            
+        }
+        .question{
+            width:auto;
+        }
+        .title{
+            height:auto;
+            padding: 5px;
+            background-color: #E0DDAA;
+            margin-bottom: 5px;
+        }
+        .content{
+            display: inline-block;
+            width:100%;
+        }
+    </style>
+
+<script type="text/javascript">
+    window.onload=function(){
+        var cvs=document.getElementById("cvs");
+        var ctx = cvs.getContext("2d");  // Canvas Context Object
+        // 鰲拜身體
+        ctx.fillStyle="blue";
+        ctx.globalAlpha=0.7;
+        ctx.fillRect(120,300,300,280);
+        ctx.strokeStyle="black";
+        ctx.strokeRect(120,300,300,280);
+
+        // 鰲拜鬍子
+        ctx.fillStyle="white";
+        ctx.globalAlpha=1;
+        ctx.fillRect(210,140,180,240);
+        ctx.strokeStyle="black";
+        ctx.strokeRect(210,140,180,240);
+
+        // 鰲拜臉
+        ctx.fillStyle="#eebb99";
+        ctx.globalAlpha=1;
+        ctx.fillRect(255,140,120,170);
+        ctx.strokeStyle="black";
+        ctx.strokeRect(255,140,120,170);
+
+        // 鰲拜帽子
+        ctx.fillStyle="red";
+        ctx.beginPath();
+        ctx.moveTo(310,70);
+        ctx.lineTo(160,140);
+        ctx.lineTo(440,140);
+        ctx.closePath();
+        ctx.fill();
+
+        // 包龍星身體
+        ctx.fillStyle="grey";
+        ctx.globalAlpha=0.8;
+        ctx.fillRect(440,300,260,280);
+        ctx.strokeStyle="black";
+        ctx.strokeRect(440,300,260,280);
+
+        // 包龍星臉
+        ctx.fillStyle="#eebb99";
+        ctx.globalAlpha=1;
+        ctx.fillRect(460,150,120,150);
+        ctx.strokeStyle="black";
+        ctx.strokeRect(460,150,120,150);
+
+        // 包龍星帽子
+        ctx.fillStyle="black";
+        ctx.globalAlpha=1;
+        ctx.fillRect(460,100,120,50);
+
+        // 包龍星問
+        ctx.fillStyle = "black";
+        ctx.font = "35px Arial";
+        ctx.fillText("你要學前端還是後端？", 390,60);
+
+        // 鰲拜答
+        ctx.fillStyle = "black";
+        ctx.font = "100px Arial";
+        ctx.fillText("我全都要", 200,550);
+
+    }
+</script>
+</head>
+<body bgcolor="#EEEDDE">
+
+<header class="header">WeHelp申請書</header>
+
+<!--Q1-->
+<div class="question">
+    <div class="title">兩百字內的個人簡介</div>
+    <div class = "content">
+        我叫張傑銘，上一份工作從事電商業務<br/>
+        簡單來說工作基本分成兩個層面<br/>
+        1. 將數據相關的工作自動化以及建立數據管道<br/>
+        2. 分析以及將數據視覺化建立儀表板Dashboard來協助公司做決策<br/>
+        而參加這次計畫的原因，是未來想要往coding的方向來發展<br/>
+        因為工作的緣故，自學了VBA、Python與SQL來優化工作效率，在寫程式的時候我很容易進入心流狀態<br/>
+        心流狀態也就是沉浸在其中，忘記時間，極度專注的精神狀態<br/>
+        而目前對於資料庫與分析還滿熱愛的，所以想往後端的方向走<br/>
+    </div>
+</div>
+<hr/>
+<br/>
+<!--Q2-->
+<div class="question">
+    <div class="title">為了成為軟體工程師，曾做過什麼努力？若有具體專案作品請分享給我們</div>
+    <div class = "content">
+        <li> 在Youtube跟著彭彭的影片練習HTML/CSS/JS/Python<br/></li>
+        <li> 在Datacamp上學習Python/SQL<br/></li>
+        <li> 為了解決工作遇到的問題，以及優化工作效率，而使用Python/SQL<br/></li>
+        <li> 自行從無到有架構與維護公司銷售營運的資料庫</li>
+        <li> 進修機器學習影像處理(進行中)<br/></li>
+        <li> 學習資訊圖卡的製作，用PTT練習排版以及資料呈現。作品如下：<br/></li>
+    </div>
+    <img src="images/Day1.jpg" width=10%>
+    <img src="images/Day2.jpg" width=10%>
+    <img src="images/Day9.jpg" width=10%>
+    <img src="images/Day11.jpg" width=10%>
+    <img src="images/Day15.jpg" width=10%>
+    <img src="images/圖卡作業02.jpg" width=10%>
+    <img src="images/圖卡作業02-2_2.jpg" width=10%>
+    <img src="images/圖卡作業07.jpg" width=10%>
+    <img src="images/圖卡作業09-2.jpg" width=10%>
+</div>
+<hr/>
+<br/>
+
+<!--Q3-->
+<div class="question">
+    <div class="title">如果參與這個計畫，會怎麼安排學習時間</div>
+    <div class = "content">
+        將這個計畫當作工作來對待，用早上的時間來安排與完成進度<br/>
+        而晚上的時候複習之前學過的，或者是預習之後要學的(參考各階段的相關技術)<br/>
+        另外我覺得休息也是一件很重要的學習步驟<br/>
+        如果進度沒有落後，我的生活習慣會保持早睡早起<br/>
+        休息充足才能應付接下來的挑戰
+    </div>
+</div>
+
+<hr/>
+<br/>
+<!--Q4-->
+<div class="question">
+    <div class="title">是否有想要加入的軟體公司</div>
+    <div class = "content">
+        我想加入的軟體公司領域，是要跟資料科學相關<br/>
+        之前讀到一篇文章 <a href="https://tw.alphacamp.co/blog/data-science-or-web-development">資料科學或網頁開發，程式開發該選哪個領域？</a> ，是關於資料科學跟網頁開發的差別<br/>
+        原本我以為這兩個是分開的領域，但文章中有提到兩者之間有不少職能重疊<br/>
+        這讓我亮起了眼睛，因為我一直想走的方向都是跟「資料」有關<br/>
+        目前還沒有很明確地說要加入哪間公司，但我期待未來公司的領域或業務要跟資料有相關
+    </div>
+</div>
+
+<hr/>
+<br/>
+<!--Q5-->
+<div class="question">
+    <div class="title">請描述一件你曾經碰到最困難的事情，如何克服</div>
+    <div class = "content">
+        最困難的事情是要從無到有建構公司的資料庫，一開始腦袋真的是一片空白，完全不知道該如何下手<br/>
+        我的解決方法是<b>「從模仿開始」</b><br/>
+        因為模仿是學習最快的方式<br/>
+        所以先去找一本有範例的資料庫書籍來看，按照書籍的指示學習<br/>
+        然後揣摩範例的資料庫關聯，再轉換成自家公司的業務形式<br/>
+        如果書中還是有不懂的地方，那就...google吧<br/>
+        幫助我最多的一個網站叫做stackoverflow<br/>
+        不管是寫SQL、Python還是VBA，我發現大部分的問題都有人問過，可以從上面找到解答<br/>
+        於是最終就完成一個資料庫，讓我可以寫SQL去抓取分析資料
+    </div>
+</div>
+
+<hr/>
+<br/>
+<!--Q6-->
+<div class="question">
+    <div class="title">關於這份申請網頁，請分享一個你開發時的技術心得</div>
+    <div class = "content">
+        8/7我看完分享會的直播後決定報名。
+        
+        一開始在做這份網頁的時候，認為說絕對不能做得太簡單，要不然無法錄取<br/>
+        因此給自己很大的壓力，想說一定要做得超完美 (我還記得<br/>
+        但後來讀到不少軟體工程師的分享，就是他們也想把自己寫的code寫到最完美，但現實是時間不夠<br/>
+        所以我就打消這個「準備花很多時間，利用現有能力做出最完美的網頁」的念頭<br/>
+        <br/>
+        從8/8開始做這份網頁，做到今天大約5天的時間<br/>
+        我目前不確定業界給的時間壓力有多少，但我給自己的要求是要最晚在8/12前完成，也就是下班後5天的時間<br/>
+        完成之後我會利用時間把彭彭Youtube還沒看過的影片學完，同時也去先去搜尋WeHelp在各階段提到的相關技術知識<br/>
+        <br/>
+        如果很不幸地，沒有錄取上，我會開始找新工作(目前在離職交接中)，然後在新工作中試圖往網頁開發的方向走<br/>
+        如果很幸運地，錄取上的話，就全力以赴接受這個挑戰 (來人阿播放背景音樂)
+    </div>
+</div>
+
+<hr/>
+<br/>
+<!--Q7-->
+<div class="question">
+    <div class="title">其他想要對我們說的事情</div>
+</div>
+
+<canvas id="cvs" width="800" height="600" style="border:1px solid #000000"></canvas>
+</body>
+</html>
